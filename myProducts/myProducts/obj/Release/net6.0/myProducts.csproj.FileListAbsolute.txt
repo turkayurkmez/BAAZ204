@@ -57,3 +57,5 @@ C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\myProducts\myProducts\ob
 C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\myProducts\myProducts\obj\Release\net6.0\myProducts.pdb
 C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\myProducts\myProducts\obj\Release\net6.0\myProducts.genruntimeconfig.cache
 C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\myProducts\myProducts\obj\Release\net6.0\ref\myProducts.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\myProducts\myProducts\bin\Release\net6.0\Humanizer.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\myProducts\myProducts\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll

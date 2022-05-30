@@ -9,7 +9,7 @@ namespace myProducts.Data
 
         public ProductDbContext(DbContextOptions<ProductDbContext> options) : base(options)
         {
-            Database.EnsureCreated();
+          
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

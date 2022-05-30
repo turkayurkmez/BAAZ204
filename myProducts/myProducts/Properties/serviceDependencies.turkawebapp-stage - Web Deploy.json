@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/turkaserver/databases/turkaproducts",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:db"
+    }
+  }
+}

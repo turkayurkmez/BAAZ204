@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-05-30T13:34:05.7293293Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-05-30T13:33:57.8346677Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "849ee4e4-5067-47c4-af4e-8f14713503d6"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "rg-webApp"
+    }
+  }
+}
