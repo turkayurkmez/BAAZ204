@@ -20,7 +20,7 @@ namespace myProducts.Data
                 new Product { Id = 3, Name = "Nintendo", Price = 2500M, Description = "Nintendo Switch" },
                 new Product { Id = 4, Name = "Playstation 4", Price = 1250M, Description = "The best console ever" },
                 new Product { Id = 5, Name = "Wii U", Price = 500M, Description = "The best console ever" },
-                new Product { Id = 6, Name = "Wii", Price = 500M, Description = "The best console ever" }
+                new Product { Id = 6, Name = "Wii", Price = 500M, Description = "The best console ever", Category="Game" }
             );
         }
 
