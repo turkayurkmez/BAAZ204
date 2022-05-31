@@ -1,4 +1,9 @@
 var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddAzureAppConfiguration(opt=>{
+    opt.Connect(builder.Configuration.GetConnectionString("AppConfig"))
+        .UseFeatureFlags();
+
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
