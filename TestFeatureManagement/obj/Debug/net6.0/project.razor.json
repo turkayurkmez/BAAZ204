@@ -16350,6 +16350,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\turka\\source\\repos\\Kurumsal\\BilgeAdam\\AZ204-II\\TestFeatureManagement\\Views\\Beta\\Index.cshtml",
+      "TargetPath": "Views\\Beta\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\turka\\source\\repos\\Kurumsal\\BilgeAdam\\AZ204-II\\TestFeatureManagement\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
