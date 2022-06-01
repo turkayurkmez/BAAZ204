@@ -1,0 +1,21 @@
+﻿@using Azure
+@using Azure.Storage.Blobs.Models
+@model AsyncPageable<BlobItem>
+@{
+    ViewData["Title"] = "ListOfBlobsInContainer";
+}
+
+<h1>ListOfBlobsInContainer</h1>
+<ul>
+    @await foreach (BlobItem blob in Model)
+    {
+        <li>
+
+            <a asp-action="DownloadFile" asp-route-blobName="@blob.Name">
+                @blob.Name
+            </a>
+
+        </li>
+    }
+</ul>
+

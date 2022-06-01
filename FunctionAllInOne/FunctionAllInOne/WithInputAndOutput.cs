@@ -15,15 +15,26 @@ namespace FunctionAllInOne
         [FunctionName("WithInputAndOutput")]
         public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            
             [CosmosDB(databaseName:"func-io", collectionName:"Bookmarks", Id ="{Query.Id}", PartitionKey = "{Query.PartitionKey}", ConnectionStringSetting = "CosmosConnection")] Bookmark bookmark,
+            [CosmosDB(databaseName: "func-io", collectionName: "Bookmarks", Id = "{Query.Id}", PartitionKey = "{Query.PartitionKey}", ConnectionStringSetting = "CosmosConnection")] out Bookmark newBookmark,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
+            newBookmark = null;
 
             if (bookmark == null)
             {
                 log.LogInformation($"Yok böyle bir bookmark");
-                return new NotFoundResult();
+                //return new NotFoundResult();
+                newBookmark = new Bookmark
+                {
+                    Id = req.Query["Id"],
+                    Url = req.Query["Url"]
+                    
+                };
+
+                return new OkObjectResult(new { message = $"Yeni bookmark eklendi. Url adresi: {newBookmark.Url}", bookmark = newBookmark });
             }
             else
             {
