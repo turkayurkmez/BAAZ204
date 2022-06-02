@@ -1,2 +1,10 @@
--- NOT: Azure Container Registry oluşturulu
+-- NOT: Azure Container Registry oluşturuldu
 az acr create --resource-group rg-containers --name turkacontainer --sku Premium
+
+--1. Hazır dockerfile dosyasını çek:
+echo FROM mcr.microsoft.com/hello-world > Dockerfile
+--2. Docker image'ini build et:
+az acr build --image sample/hello-world:v1 --registry turkacontainer --file Dockerfile .
+
+-- TUTORIAL: ---
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-quick-task

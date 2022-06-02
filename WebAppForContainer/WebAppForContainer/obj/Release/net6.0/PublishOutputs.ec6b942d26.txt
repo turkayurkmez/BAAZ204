@@ -1,0 +1,7 @@
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\WebAppForContainer\WebAppForContainer\obj\Docker\publish\WebAppForContainer.exe
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\WebAppForContainer\WebAppForContainer\obj\Docker\publish\appsettings.Development.json
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\WebAppForContainer\WebAppForContainer\obj\Docker\publish\appsettings.json
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\WebAppForContainer\WebAppForContainer\obj\Docker\publish\WebAppForContainer.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\WebAppForContainer\WebAppForContainer\obj\Docker\publish\WebAppForContainer.deps.json
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\WebAppForContainer\WebAppForContainer\obj\Docker\publish\WebAppForContainer.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\WebAppForContainer\WebAppForContainer\obj\Docker\publish\WebAppForContainer.pdb
