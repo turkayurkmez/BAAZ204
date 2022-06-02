@@ -1,0 +1,2 @@
+-- NOT: Azure Container Registry oluşturulu
+az acr create --resource-group rg-containers --name turkacontainer --sku Premium
