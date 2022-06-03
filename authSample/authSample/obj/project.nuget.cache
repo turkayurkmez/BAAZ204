@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "82wxqJK2yvMJscBoBtTgJzvNMr6GFMIdvAeBfi5beU326cT+QOIwDOUDXZkUtYcp5JFm3EQHYN7F2vAjlD+GcQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\BilgeAdam\\AZ204-II\\authSample\\authSample\\authSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\turka\\.nuget\\packages\\microsoft.identity.client\\4.44.0\\microsoft.identity.client.4.44.0.nupkg.sha512"
+  ],
+  "logs": []
+}

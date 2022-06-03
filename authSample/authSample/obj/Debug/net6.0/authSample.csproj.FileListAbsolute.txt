@@ -1,0 +1,17 @@
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\bin\Debug\net6.0\authSample.exe
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\bin\Debug\net6.0\authSample.deps.json
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\bin\Debug\net6.0\authSample.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\bin\Debug\net6.0\authSample.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\bin\Debug\net6.0\authSample.pdb
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\authSample.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\authSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\authSample.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\authSample.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\authSample.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\authSample.csproj.CopyComplete
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\authSample.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\refint\authSample.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\authSample.pdb
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\authSample.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-II\authSample\authSample\obj\Debug\net6.0\ref\authSample.dll
