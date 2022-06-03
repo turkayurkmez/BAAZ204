@@ -28,4 +28,11 @@ blobStoreValue=$(az storage account keys list --resource-group rg-event-grid -n 
 echo $blobStoreValue
 
 
+    az storage container create --name images --account-name turkaimg --account-key $blobStoreValue
+
+    az storage container create --name thumbnails --account-name turkaimg --account-key $blobStoreValue
+
+    az appservice plan create --name app-service-plan --resource-group rg-event-grid --sku Free
+
+
 
