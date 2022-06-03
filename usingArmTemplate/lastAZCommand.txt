@@ -43,6 +43,15 @@ echo $blobStoreValue
 
     az webapp create --name turkaimguploader --resource-group rg-event-grid --plan app-service-plan
     
-    az webapp config appsettings set --name turkaimguploader --resource-group rg-event-grid --settings AzureStorageConfig__ImageContainer=images AzureStorageConfig__ThumbnailContainer=thumbnails AzureStorageConfig__AccountKey=$blobStoreValue
+    az webapp config appsettings set --name turkaimguploader --resource-group rg-event-grid 
+                                     --settings AzureStorageConfig__ImageContainer=images 
+                                                AzureStorageConfig__ThumbnailContainer=thumbnails 
+                                                AzureStorageConfig__AccountKey=$blobStoreValue
     
 
+--- Function:
+
+ rgName="rg-event-grid"
+ location="eastus"
+ funcstore="storeforfuncturka"
+ az storage account create --name $funcstore --resource-group $rgName --location $location 
