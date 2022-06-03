@@ -34,5 +34,8 @@ echo $blobStoreValue
 
     az appservice plan create --name app-service-plan --resource-group rg-event-grid --sku Free
 
+    az webapp create --name turkaimguploader --resource-group rg-event-grid --plan app-service-plan
+    
+
 
 
