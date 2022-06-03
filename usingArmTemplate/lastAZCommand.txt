@@ -59,3 +59,6 @@ echo $blobStoreValue
  funcApp=genthumbimgturka
  funcApp="genthumbimgturka"
  az functionapp create --name $funcApp --storage-account $funcstore --resource-group $rgName --consumption-plan-location $location --functions-version 3
+
+ az functionapp deployment source config --name $funcApp --resource-group $rgName --branch master --manual-integration --repo-url https://github.com/Azure-Samples/function-image-upload-resize
+ 
