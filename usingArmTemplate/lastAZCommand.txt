@@ -21,4 +21,3 @@ az storage account create --name turkaimg
 
 --oluşan key'leri elde ediyoruz:
 az storage account keys list --resource-group rg-event-grid -n turkaimg --query "[0].value"
-"VX2CJ5t3KCCWc5whjWziolb/Q7K0w1g8BHfpCxowmcCrCmeFD57YfWTz3FIx4lrFTUledzrwIQXA+AStgqn+hg=="
