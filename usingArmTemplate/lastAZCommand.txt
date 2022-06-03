@@ -18,6 +18,14 @@ az storage account create --name turkaimg
                           --sku Standard_LRS 
                           --kind StorageV2 
                           --access-tier hot
+                          
 
 --oluşan key'leri elde ediyoruz:
 az storage account keys list --resource-group rg-event-grid -n turkaimg --query "[0].value"
+-- değişkene atmak:
+blobStoreValue=$(az storage account keys list --resource-group rg-event-grid -n turkaimg --query "[0].value")
+-- test etmek.
+echo $blobStoreValue
+
+
+
