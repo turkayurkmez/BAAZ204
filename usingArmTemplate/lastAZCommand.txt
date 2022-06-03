@@ -12,4 +12,13 @@ https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tut
 
 -- 03/06/2022
 
-az storage account create --name turkaimg --location eastus --resource-group rg-event-grid --sku Standard_LRS --kind StorageV2 --access-tier hot
+az storage account create --name turkaimg 
+                          --location eastus 
+                          --resource-group rg-event-grid 
+                          --sku Standard_LRS 
+                          --kind StorageV2 
+                          --access-tier hot
+
+--oluşan key'leri elde ediyoruz:
+az storage account keys list --resource-group rg-event-grid -n turkaimg --query "[0].value"
+"VX2CJ5t3KCCWc5whjWziolb/Q7K0w1g8BHfpCxowmcCrCmeFD57YfWTz3FIx4lrFTUledzrwIQXA+AStgqn+hg=="
