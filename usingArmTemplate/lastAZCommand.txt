@@ -41,5 +41,5 @@ echo $blobStoreValue
                                        --repo-url https://github.com/Azure-Samples/storage-blob-upload-from-webapp
 
 
-
+    az webapp create --name turkaimguploader --resource-group rg-event-grid --plan app-service-plan
 
