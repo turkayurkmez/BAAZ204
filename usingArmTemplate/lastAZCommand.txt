@@ -8,3 +8,8 @@ az acr build --image sample/hello-world:v1 --registry turkacontainer --file Dock
 
 -- TUTORIAL: ---
 https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-quick-task
+
+
+-- 03/06/2022
+
+az storage account create --name turkaimg --location eastus --resource-group rg-event-grid --sku Standard_LRS --kind StorageV2 --access-tier hot
