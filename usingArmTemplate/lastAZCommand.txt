@@ -55,3 +55,7 @@ echo $blobStoreValue
  location="eastus"
  funcstore="storeforfuncturka"
  az storage account create --name $funcstore --resource-group $rgName --location $location 
+
+ funcApp=genthumbimgturka
+ funcApp="genthumbimgturka"
+ az functionapp create --name $funcApp --storage-account $funcstore --resource-group $rgName --consumption-plan-location $location --functions-version 3
