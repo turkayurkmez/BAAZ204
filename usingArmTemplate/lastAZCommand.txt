@@ -35,7 +35,11 @@ echo $blobStoreValue
     az appservice plan create --name app-service-plan --resource-group rg-event-grid --sku Free
 
     az webapp create --name turkaimguploader --resource-group rg-event-grid --plan app-service-plan
-    
+
+    az webapp deployment source config --name turkaimguploader --resource-group rg-event-grid --branch master 
+                                       --manual-integration 
+                                       --repo-url https://github.com/Azure-Samples/storage-blob-upload-from-webapp
+
 
 
 
